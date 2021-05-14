@@ -58,7 +58,7 @@ namespace DevIO.Data.Repository
             return await context.SaveChangesAsync();
         }
 
-        public async void Dispose()
+        public void Dispose()
         {
             context?.Dispose();
         }
