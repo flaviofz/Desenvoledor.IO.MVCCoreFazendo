@@ -35,3 +35,7 @@ body {
         display: none;
     }
 }
+
+input, select, file, textarea {
+    max-width:400px;
+}
